@@ -1,3 +1,18 @@
+# how to build
+
+apt install -y g++ libstdc++
+cmake -DCXX=g++ -DCMAKE_BUILD_TYPE=Release .
+make help
+make clean
+make
+
+or:
+apt -y install clang++ libc++-dev
+cmake -DCMAKE_BUILD_TYPE=Release .
+make help
+make clean
+make
+
 # cpp\_etudes
 
 cpp\_etudes is a cpp project integrated with google benchmark, google test for validating cpp features and refining vectorized builtin function of databases. It can be
