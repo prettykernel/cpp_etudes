@@ -1,5 +1,6 @@
 # how to build
 
+```shell
 apt install -y g++ libstdc++
 cmake -DCXX=g++ -DCMAKE_BUILD_TYPE=Release .
 make help
@@ -7,11 +8,13 @@ make clean
 make
 
 or:
+
 apt -y install clang++ libc++-dev
 cmake -DCMAKE_BUILD_TYPE=Release .
 make help
 make clean
 make
+```
 
 # cpp\_etudes
 
